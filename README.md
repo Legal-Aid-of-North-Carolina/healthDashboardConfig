@@ -20,12 +20,15 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 
 ```json
 {
-  "enabled": true,              // Set to false to hide the banner completely
-  "type": "info",              // Options: "info", "warning", "error", "success"
-  "message": "Your message",   // The text to display in the banner
-  "dismissible": true          // If true, users can close the banner
+  "id": "unique-banner-id",  // Unique ID for this banner (required for dismissible banners)
+  "enabled": true,           // Set to false to hide the banner completely
+  "type": "info",           // Options: "info", "warning", "error", "success"
+  "message": "Your message", // The text to display in the banner
+  "dismissible": true       // If true, users can close the banner
 }
 ```
+
+**Important:** The `id` field should be unique for each banner message. When a user dismisses a banner, the ID is stored. If you change the message but keep the same ID, previously dismissed users won't see the update. Change the ID when you want to show a new banner to all users.
 
 ### Banner Types
 
@@ -39,6 +42,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 **Planned Maintenance:**
 ```json
 {
+  "id": "maintenance-2026-03-15",
   "enabled": true,
   "type": "warning",
   "message": "Scheduled maintenance on March 15 from 2-4 PM EST. Services may be unavailable.",
@@ -49,6 +53,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 **Outage Alert:**
 ```json
 {
+  "id": "outage-textintake-dev-20260306",
   "enabled": true,
   "type": "error",
   "message": "Text Intake DEV environment is currently down. Engineers are investigating.",
@@ -59,6 +64,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 **New Feature:**
 ```json
 {
+  "id": "feature-admin-links-2026-03",
   "enabled": true,
   "type": "success",
   "message": "New admin features now available! Access them at /admin endpoint.",
@@ -69,6 +75,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 **Hide Banner:**
 ```json
 {
+  "id": "welcome-2026-03",
   "enabled": false,
   "type": "info",
   "message": "",
