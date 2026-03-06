@@ -20,11 +20,11 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 
 ```json
 {
-  "id": "unique-banner-id",  // Unique ID for this banner (required for dismissible banners)
-  "enabled": true,           // Set to false to hide the banner completely
-  "type": "info",           // Options: "info", "warning", "error", "success"
+  "id": "unique-banner-id", // Unique ID for this banner (required for dismissible banners)
+  "enabled": true, // Set to false to hide the banner completely
+  "type": "info", // Options: "info", "warning", "error", "success"
   "message": "Your message", // The text to display in the banner
-  "dismissible": true       // If true, users can close the banner
+  "dismissible": true // If true, users can close the banner
 }
 ```
 
@@ -40,6 +40,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 ### Example Messages
 
 **Planned Maintenance:**
+
 ```json
 {
   "id": "maintenance-2026-03-15",
@@ -51,6 +52,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 ```
 
 **Outage Alert:**
+
 ```json
 {
   "id": "outage-textintake-dev-20260306",
@@ -62,6 +64,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 ```
 
 **New Feature:**
+
 ```json
 {
   "id": "feature-admin-links-2026-03",
@@ -73,6 +76,7 @@ The `banner-config.json` file controls the banner displayed at the top of the da
 ```
 
 **Hide Banner:**
+
 ```json
 {
   "id": "welcome-2026-03",
