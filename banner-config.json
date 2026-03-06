@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "type": "info",
+  "message": "Welcome to the Environment Health Dashboard",
+  "dismissible": true
+}
