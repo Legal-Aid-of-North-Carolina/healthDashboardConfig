@@ -1,7 +1,7 @@
 {
-  "id": "maintenance-2026-03-15",
+  "id": "030626_1548utc",
   "enabled": true,
-  "type": "warning",
-  "message": "Scheduled maintenance on March 15 from 2-4 PM EST. Services may be unavailable.",
+  "type": "info",
+  "message": "All services are fully operational at the time of this announcement. In the event of any issues, we will provide updates here.",
   "dismissible": true
 }
