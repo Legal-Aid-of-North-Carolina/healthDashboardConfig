@@ -1,7 +1,7 @@
 {
-  "id": "tif-bad-version-031226_1450utc",
+  "id": "030626_1548utc",
   "enabled": true,
-  "type": "error",
-  "message": "Text Intake in Production is currently running a very old version. We have found the corrective action and the current version should be up and running by 12:30pm ET.",
-  "dismissible": false
+  "type": "info",
+  "message": "All services are fully operational at the time of this announcement. In the event of any issues, we will provide updates here.",
+  "dismissible": true
 }
