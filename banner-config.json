@@ -2,6 +2,6 @@
   "id": "tif-bad-version-031226_1450utc",
   "enabled": true,
   "type": "error",
-  "message": "Text Intake in Production has repeatedly reverted to a very old version (v0.9.2 vs v1.4.5). Engineers are investigating.",
+  "message": "Text Intake in Production is currently running a very old version. We have found the corrective action and the current version should be up and running by noon ET.",
   "dismissible": false
 }
